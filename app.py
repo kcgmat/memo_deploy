@@ -1,5 +1,6 @@
 from flask import Flask, request, redirect, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
+import os
 
 # Flaskとデータベースの初期化 --- (※1)
 app: Flask = Flask(__name__)
