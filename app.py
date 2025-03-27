@@ -43,4 +43,4 @@ def memo(id: int):
     return render_template("memo.html", it=it)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8888)
+    app.run(host="0.0.0.0", port=8000)
