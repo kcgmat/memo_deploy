@@ -1,5 +1,4 @@
 flask
 flask-sqlalchemy
-pymssql
 gunicorn
 pyodbc
